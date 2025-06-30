@@ -27,7 +27,7 @@ INSERT INTO Orders VALUES
 (101, 1, 250.00),
 (102, 2, 300.00),
 (103, 2, 150.00),
-(104, 5, 100.00); -- now valid
+(104, 5, 100.00); 
 
 -- INNER JOIN: Customers who have orders
 SELECT c.customer_name, o.order_amount
